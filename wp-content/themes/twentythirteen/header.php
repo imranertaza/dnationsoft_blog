@@ -57,7 +57,7 @@
                         <li><a href="<?php echo $baseurl; ?>service/"><span class="each_menu_img"><i class="fa fa-th-list"></i></span><br/>SERVICE</a></li>
                         <li><a href="<?php echo $baseurl; ?>domain-hosting/"><span class="each_menu_img"><i class="fa fa-database"></i></span><br/>Domain &amp; Hosting</a></li>
                         <li><a href="<?php echo $baseurl; ?>portfolio/"><span class="each_menu_img"><i class="fa fa-book" aria-hidden="true"></i></span><br/>PORTFOLIO</a></li>
-                        <li><a href="<?php echo $baseurl; ?>our-team/"><span class="each_menu_img"><i class="fa fa-users"></i></span><br/>OUR TEAM</a></li>
+                        <!-- <li><a href="<?php //echo $baseurl; ?>our-team/"><span class="each_menu_img"><i class="fa fa-users"></i></span><br/>OUR TEAM</a></li> -->
                         <li><a href="<?php echo $baseurl; ?>about-us/"><span class="each_menu_img"><i class="fa fa-user"></i></span><br/>ABOUT US</a></li>
                         <li><a href="<?php echo $baseurl; ?>blog/" target="_blank"><span class="each_menu_img"><i class="fa fa-file"></i></span><br/>Blog</a></li>
                         <li><a href="<?php echo $baseurl; ?>contact-us/"><span class="each_menu_img"><i class="fa fa-envelope"></i></span><br/>CONTACT US</a></li>
@@ -68,14 +68,17 @@
 
             <div class="slideshow_area">
             	<div class="container">
-            		 <?php //putRevSlider("I_slider") ?>
+            		 <?php putRevSlider("I_slider") ?>
                 </div> <!-- END .container -->
             </div><!-- end of slider -->
 </div><!-- end of web-body -->
         <div class="order_baton">
-        	<a class="order_submit" href="<?php echo $baseurl; ?>?view=register">Place An Order</a>
-            <a class="order_submit" href="<?php echo $baseurl; ?>?view=quote">Request a Quote</a>
+        	<a class="order_submit" href="<?php echo $baseurl; ?>?view=register">Place An Order <i class="fa fa-angle-double-right"></i></a>
+            <a class="order_submit" href="https://www.dnationsoft.com/quote">Request A Quote <i class="fa fa-angle-double-right"></i></a>
+            <a class="order_submit" href="<?php echo $baseurl; ?>?view=quote">Place A Custom Order <i class="fa fa-angle-double-right"></i></a>
             <br class="clear" />
+            <br class="clear" />
+
         </div>
         
         <div class="content">

@@ -24,10 +24,11 @@ body{
 	margin:0px;
 	padding:0px;
 	background:#333;
-	font-family:TrebuchetMS;
-	font-size:14px;
+	font-family:'Open Sans', sans-serif;
+	font-size:15px;
 	color:#1c1c1c;
 	background:#7ac143;
+	line-height: 24px;
 }
 
 a {	color:#1c1c1c; text-decoration:none;}
@@ -47,7 +48,7 @@ a:hover { color:#7ac143;}
 	width:100%;
 	}
 .header_bar1{
-	background:#7ac143;
+	background:#279b38;
 	padding:0 40px;
 	}
 .contact_number{
@@ -70,7 +71,15 @@ a:hover { color:#7ac143;}
 	margin-top:10px;
 	width: 310px;
 }
-.so_icons .blog { border-radius: 5px; color:#fff; padding:3px 10px; background:#279b38; font-size:16px; display:block; width:105px; float:left; }
+.so_icons .blog { border-radius: 5px;
+    color: #fff;
+    padding: 2px 10px;
+    background: #2bb940;
+    font-size: 15px;
+    display: block;
+    width: 105px;
+    float: left;
+    font-weight: bold; }
 .so_icons a i {
 	margin-left: 4px;
     border: none;
@@ -108,9 +117,9 @@ a:hover { color:#7ac143;}
 	margin:0px;
     padding: 33px 12px;
 	float: left;
-	font-size:15px;
+	font-size:14px;
 	color:#222222;
-	font-weight:bold;
+	/*font-weight:bold;*/
 	text-transform:uppercase;
 }
 	
@@ -413,7 +422,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdcdc', end
 }
 .sidebar .title {
 	padding:5px 10px;
-	background:#7ac143;
+	background:#279b38;
 	font-size:18px;
 	font-weight:bold;
 	color:#fff;
@@ -631,7 +640,7 @@ sup {
 }
 .left_content h2 {
 	color: #fff;
-	background:#2ab1c8;
+	background:#279b38;
 	padding:5px 10px;
 	font-size:20px;
 	font-weight:bold;

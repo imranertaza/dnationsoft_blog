@@ -242,18 +242,19 @@
 
 
 /************ battion ****************/
-.order_baton { max-width:850px; margin:0 auto;  background:#FFF;}
+.order_baton { max-width:1272px; margin:0 auto;  background:#FFF;}
 .order_submit {
   width: 310px;
-  color: #F5F5F5;
-  font-size: 30px;
-  border: 2px solid #7fb852;
-  padding: 20px 30px;
+  color: #ffffff;
+  font-size: 16px;
+  border: 2px solid #279b38;
+  padding: 0px 30px;
   float: left;
-  background: #7AC144;
+  background: #279b38;
   text-align: center;
   margin: 25px 25px 0;
   cursor:pointer;
+  font-weight: 700;
 }
 .order_submit:hover { color:#fff; background:#83C54F; }
 /************ battion ****************/
