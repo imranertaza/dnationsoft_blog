@@ -1,0 +1,1 @@
+[24-Dec-2019 10:00:11 UTC] PHP Warning:  fopen(./cache/timthumb_int_2c10431fa91a156d05b7cec9cb288638.timthumb.txt): failed to open stream: No such file or directory in /home/dnations/public_html/assets/timthumb.php on line 1036

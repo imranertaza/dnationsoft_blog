@@ -9,10 +9,9 @@
 
 get_header(); ?>
 
-<div class="portfolio_box">
-
-	<div class="left_content">
-		<h1>Blog</h1>
+<div class="col-md-8">
+	<div class="border content-pad blog-content">
+		<div class="blog-head bottom-bordre" ><i class="fab fa-connectdevelop"></i>Blog</div>
 		<?php if ( have_posts() ) : the_post(); ?>
 		 
 		 <h2><a class="blog_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
@@ -21,6 +20,7 @@ get_header(); ?>
 		<?php endif; ?>
     
     </div>
+</div>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -17,10 +17,10 @@
 get_header(); ?>
 
 
-<div class="portfolio_box">
+<div class="col-md-8">
 
-	<div class="left_content">
-		<h1>Blog</h1>
+	<div class="border content-pad blog-content">
+		<div class="blog-head bottom-bordre" ><i class="fab fa-connectdevelop"></i>Blog</div>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		 
 		 <h2><a class="blog_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
@@ -30,7 +30,7 @@ get_header(); ?>
     
     </div>
     
-    
+  </div>  
     
     
     
